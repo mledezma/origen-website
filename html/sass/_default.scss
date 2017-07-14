@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;    
+}
+
+h2,
+h3,
+ {
+    font-family: $lalezar;
+}
+
+p,
+li,
+a {
+    font-family: $roboto;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 52.92px;
+}
+
+section,
+div,
+body {
+    box-sizing: border-box;
+}

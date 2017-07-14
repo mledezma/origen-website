@@ -1,0 +1,59 @@
+.contact {
+    display: inline-block;
+    padding: 40px;
+    vertical-align: top;
+    width: 60%;
+
+    h2 {
+        color: #fff;
+    }
+    
+    input {
+        display: block;
+        padding: 1% 2%;
+        margin-bottom: 20px;
+    }
+
+    input:last-child {
+        margin-bottom: 40px;
+    }
+
+    p {
+        color: #fff;
+        margin-bottom: 35px;
+    }
+
+    a {
+        margin-left: 72px;
+    }
+
+    p,
+    input {
+        font-size: 20px;
+    }
+
+    .info, 
+    .media {
+        display: inline-block;
+        width: 49%;
+    }
+}
+
+.section-contact {
+    background-image: url('../img/contact.jpg');
+    background-size: cover;
+}
+
+.footer {
+    background-color: #000;
+}
+
+.media {
+    margin-top: 10%;
+    vertical-align: top;
+
+    img {
+        cursor: pointer;
+        width: 20%;
+    }
+}

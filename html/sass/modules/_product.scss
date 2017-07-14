@@ -1,0 +1,40 @@
+.section-product {
+    background-image: url('../img/bg-product.jpg');
+    background-size: cover;
+    padding: 60px 50px;
+    
+    h3 {
+        color: #fff;
+        display: inline-block;
+        font-size: 37px;
+        margin-top: 7%;
+        vertical-align: top;        
+        width: 20%;
+        
+        span {
+            color: #24bdcf;
+            display: block;
+            font-size: 26px;
+            margin-top: -15px;
+        }
+    }
+
+    p {
+        color: #fff;
+        display: inline-block;
+        font-size: 25px;
+        width: 49%;
+    }
+
+    .image-container {
+        display: inline-block;
+        text-align: center;
+        width: 30%;
+    }
+}
+
+.caracteristics {
+    background-color:rgba(0, 0, 0, 0.7);
+    margin-bottom: 80px;
+    padding: 30px;  
+}

@@ -1,0 +1,28 @@
+.section-work {
+    padding: 60px 50px;
+
+    h2 {
+        margin-bottom: 85px;
+    }
+
+    .work-bio {
+        display: inline-block;
+        font-size: 25px;
+        font-weight: 300;
+        margin-top: 3%;        
+        vertical-align: top;
+        width: 20%;
+    }
+
+    .work-bio:first-child {
+        margin-left: 15%;
+    }
+
+    .work-bio:nth-child(2) {
+        margin-left: 7%;
+    }
+
+    .work-bio:last-child {
+        margin-left: 5%;
+    }
+}

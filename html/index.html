@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ecotrash</title>
+    <link href="https://fonts.googleapis.com/css?family=Lalezar|Roboto:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="libs/three.js"></script>
+    <script type="text/javascript" src="libs/ColladaLoader.js"></script>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="full-wrapper">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <ul class="menu">
+                <li><a href="#basurero">Ecotrash</a></li>
+                <li><a href="#caracteristicas">Asociarse</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Three.js Model -->
+        <section>
+            <div id="basurero"></div>
+            <!-- Div which will hold the Output -->
+            <div id="WebGL-output">
+            </div>
+        </section>
+        <section class="section-product" id="caracteristicas">
+            <div class="full-wrapper">
+                <h2>Características</h2>
+                <div class="caracteristics">
+                    <h3>Selección <span>inteligente</span></h3>
+                    <div class="image-container">
+                        <img src="img/ecotrash.png" alt="Basurero inteligente">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse id praesentium aspernatur placeat ipsam
+                        quam dicta est, deleniti ad similique itaque excepturi sed aliquid soluta doloremque commodi, et,
+                        accusamus reiciendis delectus nostrum labore sit. Atque!</p>
+                </div>
+                <div class="caracteristics">
+                    <h3>Batería <span>Lithium-ion</span></h3>
+                    <div class="image-container">
+                        <img src="img/bateria.png" alt="Bateria del basurero">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta consectetur, minus iure odit excepturi
+                        asperiores repellendus tempore cupiditate repudiandae ipsa nulla aliquid, quas nam laudantium aperiam!
+                        Alias eveniet excepturi cumque, nesciunt recusandae minima optio, in?</p>
+                </div>
+                <div class="caracteristics">
+                    <h3>Controlador <span>por pantalla</span></h3>
+                    <div class="image-container">
+                        <img src="img/pantalla.png" alt="Controlador del basurero">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis veniam minima pariatur impedit dolore
+                        animi sequi quisquam a porro. Neque dolorem provident eveniet doloribus nesciunt similique temporibus
+                        adipisci quaerat cupiditate aliquid, iure maiores voluptate! Sequi.</p>
+                </div>
+                <div class="center-content">
+                    <a href="#" class="btn-buy">Comprar ahora</a>
+                </div>
+            </div>
+        </section>
+        <section class="section-work">
+            <div class="full-wrapper">
+                <h2>Modelo de negocios</h2>
+                <div class="center-content">
+                    <img src="img/work.jpg" alt="Modelo de negocios">
+                </div>
+                <div>
+                    <p class="work-bio">Colocamos el basurero en un área de gran tránsito de persona. En alianza con centros comerciales y empresas
+                        i nteresadas en mejorar su manejo de residuos</p>
+                    <p class="work-bio">Las personas utilizan el basurero y mientras ayudan al medio ambiente aprenden la manera correcta de
+                        separa los residuos</p>
+                    <p class="work-bio"><strong>Origen</strong> se encarga de la recolección de desechos del basurero y de su constante mantenimiento</p>
+                </div>
+            </div>
+        </section>
+        <section class="section-contact" id="contacto">
+            <div class="full-wrapper">
+                <img src="img/crew.gif" alt="Crew">
+                <div class="contact">
+                    <h2>Contactenos</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit reprehenderit, dolorum dicta necessitatibus
+                        provident autem, veniam quasi, adipisci voluptates velit voluptatem.</p>
+                    <div class="info">
+                        <form>
+                            <input type="text" placeholder="Nombre">
+                            <input type="text" placeholder="Correo electrónico">
+                            <input type="number" placeholder="Teléfono">
+                        </form>
+                        <a class="btn-contact">Enviar</a>
+                    </div>
+                    <div class="media center-content">
+                        <img src="img/social-media-facebook.png" alt="Facebook">
+                        <img src="img/social-media-instragram.png" alt="Instagram">
+                        <img src="img/social-media-youtube.png" alt="Youtube">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Scripts -->
+    <!-- Javascript code that runs our Three.js examples -->
+    <script type="text/javascript" src="./js/collada.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+</body>
+
+</html>
